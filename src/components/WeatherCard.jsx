@@ -46,7 +46,7 @@ export default function WeatherCard({ weather }) {
   return (
     <Card sx={{ width: 290, textAlign: 'center' }} elevation={10}>
       <CardHeader
-        title={weatherItem.main.temp + '°C'}
+        title={parseInt(weatherItem.main.temp) + '°C'}
         subheader={getStrDateTime(weatherItem.dt_txt)}
       />
       <CardMedia
