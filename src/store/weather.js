@@ -28,8 +28,8 @@ export const weatherSlice = createSlice({
   },
 })
 
-export const {
-  setWeather,
-} = weatherSlice.actions
+// export const {
+//   setWeather,
+// } = weatherSlice.actions
 
 export default weatherSlice.reducer
